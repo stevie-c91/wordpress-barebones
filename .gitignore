@@ -1,0 +1,13 @@
+# System / Misc
+.vagrant
+*.zip
+*.tar.gz
+.DS_STORE
+
+# WordPress
+public/license.txt
+public/readme.html
+public/wp-config-sample.php
+public/wp-content/themes/twenty*
+public/wp-content/upgrade
+public/wp-content/uploads
