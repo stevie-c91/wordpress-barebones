@@ -5,6 +5,7 @@
 .DS_STORE
 
 # WordPress
+public/.htaccess
 public/license.txt
 public/readme.html
 public/wp-config-sample.php
