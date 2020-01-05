@@ -2,14 +2,26 @@
 
 This is a boilerplate for getting up and running with a new WordPress website quickly.
 
+View article [here](https://stevencotterill.com/articles/wordpress-barebones-starter-script-and-theme)
+
 ## Features
 
-- Downloads the latest WordPress version
-- Removes unused files
-- A barebones theme with only commonly used files
-- A nice gitignore file
-- A local Vagrant environment
-- Useful functions and some other tweaks
+- Downloads the latest version of WordPress
+- Extracts the official ZIP file to a public folder and removes the ZIP
+- Removes the [Akismet](https://en-gb.wordpress.org/plugins/akismet) plugin
+- Removes the [Hello Dolly](https://en-gb.wordpress.org/plugins/hello-dolly) plugin
+- Removes all the default WordPress 'twenty' themes
+- Installs a barebones theme which contains only the commonly used files. It also includes a number of useful functions that I add to all projects. Most of the theme files are empty, allowing for a quick starting point
+- Sets up a local Vagrant environment with the [Scotchbox Pro](https://box.scotch.io/pro) box
+- Performs cleanup, including deleting the script itself
+
+Some useful functions include:
+
+- Defining constants for parent and child themes. These allows much shorter calls in the theme
+- Disables the WordPress admin file-editor for added security
+- Removes the WordPress version from the source code, including all scripts and styles
+- Show a generic login error for added security
+- Disables comments throughout the site, including removing menu items
 
 ## How to use
 
@@ -26,7 +38,6 @@ This is a boilerplate for getting up and running with a new WordPress website qu
     # WordPress downloaded! Extracting files...
     # Removed unused files and folders
     # Successfully installed WordPress and Barebones theme!
-
 
 You should then edit the theme 'style.css' with your new theme name.
 
