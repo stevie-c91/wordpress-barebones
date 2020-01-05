@@ -23,6 +23,12 @@ This is a boilerplate for getting up and running with a new WordPress website qu
     # Run the barebones script
     ./barebones.sh
 
+    # Downloading the latest version of WordPress...
+    # WordPress downloaded! Extracting files...
+    # Removed unused files and folders
+    # Sucessfully installed WordPress and Barebones theme!
+
+
 You should then edit the theme 'style.css' with your new theme name.
 
 Remember to activate the theme when have it running by logging into WordPress and going to Appearance > Themes, then go to Settings > Permalinks to generate a fresh .htaccess file.
