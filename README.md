@@ -26,7 +26,7 @@ This is a boilerplate for getting up and running with a new WordPress website qu
     # Downloading the latest version of WordPress...
     # WordPress downloaded! Extracting files...
     # Removed unused files and folders
-    # Sucessfully installed WordPress and Barebones theme!
+    # Successfully installed WordPress and Barebones theme!
 
 
 You should then edit the theme 'style.css' with your new theme name.
