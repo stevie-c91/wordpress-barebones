@@ -14,8 +14,7 @@ This is a boilerplate for getting up and running with a new WordPress website qu
 ## How to use
 
     # Clone the repo to your machine and change directory
-    git clone https://github.com/stevie-c91/wordpress-barebones.git
-    cd wordpress-barebones
+    git clone https://github.com/stevie-c91/wordpress-barebones.git && cd wordpress-barebones
 
     # Add your desired theme name to the barebones.sh file
     theme_name=your-theme-name
